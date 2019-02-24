@@ -1,29 +1,27 @@
-# hello-world
+# YI QR Code Generator
 
-## Project setup
-```
-npm install
-```
+This was quickly hacked together by a guy who doesn't really do frontend development as a way to both learn VueJS and to reverse engineer something for lols.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# What is it?
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This will generate a QR code that Yi camera devices can read. 
 
-### Run your tests
-```
-npm run test
-```
+# Does it work?
 
-### Lints and fixes files
-```
-npm run lint
-```
+Probably not. The Bindkey is important to bind the device to the application/account and I've not reverse engineered that yet.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Did you even test it?
+
+Haha. No.
+
+# Why is it so ugly?
+
+Feel free to submit a PR to make it look pretty. It works though, right?
+
+# Disclaimer
+
+There is no warranty what so ever with this. 
+
+# Further information
+
+See https://github.com/TheCrypt0/yi-hack-v4/wiki/Reverse-Engineering-the-QR-Code 

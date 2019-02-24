@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "yi-qr-code-generator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "qrcode.vue": "^1.6.1",
     "vue": "^2.6.6"
   },
   "devDependencies": {

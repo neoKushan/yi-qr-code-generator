@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <YiQrCode bindKey="EU28FM4aoN1vWOML" ssid="" password=""/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import YiQrCode from './components/YiQRCode.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    YiQrCode,
   }
 }
 </script>
