@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <YiQrCode bindKey="EU28FM4aoN1vWOML" ssid="" password=""/>
+    <a href="https://github.com/neoKushan/yi-qr-code-generator">Source code in github</a>
   </div>
 </template>
 
